@@ -11,10 +11,10 @@ import random
 import time
 
 def main():
-    play_again=None
+    play_again="None"
     print("Let's play Number Guesser!")
 
-    while play_again != "no":
+    while play_again.lower() != "no":
         x = 1
         answer = random.randint(1, 10)
 
